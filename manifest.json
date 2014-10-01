@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+	"name": "XKCD Substitutions",
+	"version": "1.0",
+	"description": "XKCD Substitutions",
+	"content_scripts": 
+	[
+		{
+			"matches": ["*://*/*"],
+			"js": ["content_script.js"],
+			"run_at": "document_end"
+		}
+	]
+}
